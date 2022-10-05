@@ -5,6 +5,7 @@ Grooving
 * Repo link:[https://groovingseg.github.io/grooving.github.io/)]
 * Organisation Name: Grooving
 * Team Member Names:
+
 Bryan Luu- Github Username : bluuluu - https://github.com/bluuluu <br />
 Aya Debbagh - Github Username : ayadebbagh - https://github.com/ayadebbagh <br />
 Jules Gaudet- - Github Username  julesgaudet - https://github.com/julesgaudet <br />
