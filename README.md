@@ -2,7 +2,7 @@ Grooving
 ======
 * Team Name: Grooving
 * Organization link: [https://github.com/GROOVINGSEG]
-* Repo link: [https://github.com/GROOVINGSEG/SEG2900---Project---Group-24.git]
+* Repo link: [GROOVINGSEG/Grooving.github.io]
 * Organisation Name: Grooving
 * Team Member Names:<br />
 Bryan Luu- Student Number: 300280967 - Github Username : bluuluu - https://github.com/bluuluu <br />
