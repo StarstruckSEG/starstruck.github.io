@@ -1,4 +1,5 @@
-
+Organization link: [https://github.com/GROOVINGSEG]
+Repo link: [https://github.com/GROOVINGSEG/SEG2900---Project---Group-24.git]
 Organisation Name: Grooving
 Team Member Names:
 Bryan Luu- Student Number: 300280967 - Github Username : bluuluu - https://github.com/bluuluu
