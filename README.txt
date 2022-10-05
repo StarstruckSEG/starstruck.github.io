@@ -1,4 +1,3 @@
-@@ -5,7 +5,7 @@ Team Name: Grooving
 Organization link: [https://github.com/GROOVINGSEG]
 Repo link: [https://github.com/GROOVINGSEG/SEG2900---Project---Group-24.git]
 Organisation Name: Grooving
