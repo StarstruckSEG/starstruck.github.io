@@ -1,6 +1,7 @@
-Seg2900 Group 24
-Organisation Name:
-Name and student number: Bryan Luu 300280967
+
+Organisation Name: Grooving
+Team Member Names:
+Bryan Luu- Student Number: 300280967 - Github Username : bluuluu - https://github.com/bluuluu
 Name and student number: Aya Debbagh 388281322
 Name and student number: Jules Gaudet 300282116
 Name and student number: Mohamed Yatera 300280976 
