@@ -1,1 +1,93 @@
+<<<<<<< Updated upstream
 Body{}
+=======
+@font-face {
+  font-family: "The Texterius";
+  src: url(fonts/The\ Texterius\ Italic.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Vanilla Ravioli";
+  src: url(fonts/Vanilla\ Ravioli.ttf) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #cdccff;
+}
+nav {
+  display: flex;
+  padding: 0.5% 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 220px;
+  height: auto;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 12px 20px;
+}
+.nav-links ul li a {
+  color: #1a1541;
+  text-decoration: none;
+  font-family: "Vanilla Ravioli";
+  font-size: 20px;
+}
+ul img {
+  width: 15px;
+  height: auto;
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #1a1541;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+.text-box {
+  width: 90%;
+  color: #1a1541;
+  position: absolute;
+  text-align: left;
+  font-family: "The Texterius";
+  font-size: 47px;
+  padding: 8% 3%;
+  line-height: 93px;
+  text-decoration: none;
+}
+.made-for {
+  width: 90%;
+  color: #1a1541;
+  position: absolute;
+  text-align: left;
+  font-family: "Vanilla Ravioli";
+  font-size: 20px;
+  padding: 46% 3%;
+  text-decoration: none;
+}
+.spotify-logo {
+  padding: 45.5% 9.7%;
+}
+
+.mosaic {
+  display: grid;
+}
+.mosaic-item1 {
+  grid-column: 1 / span 1;
+}
+>>>>>>> Stashed changes
