@@ -1,9 +1,15 @@
-Organization link: [https://github.com/GROOVINGSEG]
-Repo link: [https://github.com/GROOVINGSEG/SEG2900---Project---Group-24.git]
-Organisation Name: Grooving
-Team Member Names:
-Bryan Luu- Student Number: 300280967 - Github Username : bluuluu - https://github.com/bluuluu
-Name and student number: Aya Debbagh 388281322
-Name and student number: Jules Gaudet 300282116 - Github Username : Jules Gaudet - https://github.com/julesgaudet
-Name and student number: Mohamed Yatera 300280976 
-Name and student number: 
+# Starstruck
+
+- Team Name: Starstruck
+- Organization link:[https://github.com/StarstruckSEG]
+- Repo link:[https://github.com/StarstruckSEG/starstruck.github.io]
+- Team Member Names:
+
+Bryan Luu- Github Username : bluuluu - https://github.com/bluuluu <br />
+Aya Debbagh - Github Username : ayadebbagh - https://github.com/ayadebbagh <br />
+Jules Gaudet- - Github Username julesgaudet - https://github.com/julesgaudet <br />
+Mohamed Yatera - Github Username : MohamedYatera - https://github.com/MohamedYatera <br />
+Anna Corinne N'Guessan-Ble - Github Username : angue047 - https://github.com/angue047 - <br />
+
+- Description:
+  Allows people to connect with each other with the use of music
