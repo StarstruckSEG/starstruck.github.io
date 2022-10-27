@@ -2,7 +2,7 @@
 
 - Team Name: Starstruck
 - Organization link:[https://github.com/StarstruckSEG]
-- Repo link:[https://starstruckseg.github.io/starstruck.github.io/]
+- Repo link:[https://starstruckseg.github.io/starstruck.github.io]
 - Team Member Names:
 
 Bryan Luu- Github Username : bluuluu - https://github.com/bluuluu <br />
