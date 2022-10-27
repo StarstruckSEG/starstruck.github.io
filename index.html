@@ -37,30 +37,32 @@
       <div class="spotify-logo">
         <img src="images/spotify.png" height="38" />
       </div>
-      <div class="container">
-        <div class="mosaic">
-          <div class="mosaic-item1">
-            <img src="images/bfiafl.jpg" alt="" />
-          </div>
-          <div class="mosaic-item2">
-            <img src="images/Fleetwood-Mac-Rumours-.webp" alt="" />
-          </div>
-          <div class="mosaic-item3">
-            <img src="images/folklore.webp" alt="" />
-          </div>
-          <div class="mosaic-item4">
-            <img src="images/harry.webp" alt="" />
-          </div>
-          <div class="mosaic-item5">
-            <img src="images/nfr.png" alt="" />
-          </div>
-          <div class="mosaic-item6">
-            <img src="images/olivia.webp" alt="" />
-          </div>
-          <div class="mosaic-item7">
-            <img src="images/tame impala.jpeg" alt="" />
-          </div>
+      <div>
+      <ul class="album-gallery">
+              <li><img src="images/bfiafl.jpg" height="230" class="object" data-value='5'/></li>
+              <li><img src="images/Fleetwood-Mac-Rumours-.webp" height="190" class="object" data-value='-4'/></li>
+              <li><img src="images/folklore.webp" height="180" class="object" data-value='6'/></li>
+              <li><img src="images/harry.webp" height="170" class="object" data-value='-8'/></li>
+              <li><img src="images/nfr.png" height="230" class="object" data-value='5'/></li>
+              <li><img src="images/olivia.webp" height="290" class="object" data-value='-3'/></li>
+              <li><img src="images/tame impala.jpeg" height="250" class="object" data-value='2'/></li>
+              <li><img src="images/blond.jpeg" height="230" class="object" data-value='-9'/></li>
+            </ul>
         </div>
+        <script type="text/javascript">
+          document.addEventListener('mousemove', parallax);
+function parallax(e){
+    document.querySelectorAll(".object").forEach(function(move){
+
+        var moving_value = move.getAttribute("data-value");
+        var x = (e.clientX * moving_value) /250;
+        var y = (e.clientY * moving_value) /250;
+
+        move.style.transform = "translateX(" +x+ "px) translateY("+y+"px)";
+    });
+}
+        </script>
+      </div>
       </div>
     </section>
   </body>
