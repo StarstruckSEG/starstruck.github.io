@@ -14,7 +14,7 @@ for (i = 0; i < faq.length; i++) {
         }
     });
 }
-var words = ['This is the FAQ section', 'Did you find what you were looking for?', 'Send us a Mail if you have more questions!'],
+var words = ['This is the FAQ section', 'Did you find what you were looking for?', 'Send us an email if you have more questions!'],
     part,
     i = 0,
     offset = 0,
