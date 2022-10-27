@@ -49,19 +49,7 @@
               <li><img src="images/blond.jpeg" height="230" class="object" data-value='-9'/></li>
             </ul>
         </div>
-        <script type="text/javascript">
-          document.addEventListener('mousemove', parallax);
-function parallax(e){
-    document.querySelectorAll(".object").forEach(function(move){
-
-        var moving_value = move.getAttribute("data-value");
-        var x = (e.clientX * moving_value) /250;
-        var y = (e.clientY * moving_value) /250;
-
-        move.style.transform = "translateX(" +x+ "px) translateY("+y+"px)";
-    });
-}
-        </script>
+        <script src="index.js"></script>
       </div>
       </div>
     </section>
