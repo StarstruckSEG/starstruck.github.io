@@ -2,7 +2,7 @@
 
 - Team Name: Starstruck
 - Organization link:[https://github.com/StarstruckSEG]
-- Repo link:[https://starstruckseg.github.io/starstruck.github.io]
+- Repo link:[https://starstruckseg.github.io/starstruck.github.io/]
 - Team Member Names:
 
 Bryan Luu- Github Username : bluuluu - https://github.com/bluuluu <br />
@@ -13,3 +13,4 @@ Anna Corinne N'Guessan-Ble - Github Username : angue047 - https://github.com/ang
 
 - Description:
   Allows people to connect with each other with the use of music
+
