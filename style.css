@@ -137,3 +137,87 @@ ul img {
   padding: 43.5% 9.7%;
   position: absolute;
 }
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+.faq-heading{
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+width: 60%;
+margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: #444;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+.faq-body{
+  margin: auto;
+  /* text-align: center; */
+ width: 50%; 
+ padding: auto;
+ 
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color: #cdccff;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: #cdccff;
+  display: none;
+  overflow: hidden;
+}
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .08em; /* Adjust as needed */
+  animation: 
+    typing 3.9s steps(40, end),
+    blink-caret .90s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
