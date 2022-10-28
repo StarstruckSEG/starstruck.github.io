@@ -1,0 +1,10 @@
+<div class="made-for">
+        <h3>Made for</h3>
+      </div>
+      <div class="spotify-logo">
+        <img src="images/spotify.png" height="38" />
+      </div>
+    
+
+This is the code for the made for spotify. When it on the css for the footer doesnt work
+will find a way to fix it. Leaving it here for now so we dont lose it
