@@ -1,0 +1,28 @@
+Style guidelines:
+
+Overall look and feel:
+Starstruck's overall look and feel is flat and pastel colored. We are using fun colors but toning down on they saturation to create a calm and easy on the eye pages. Avoiding any bright colors and maximalist buttons.
+
+ 
+Color scheme:
+We are using fun colors to target our younger (Gen Z) audience, representing that we are also a young team making a product tailored to what our generation wants
+
+- #e0c3fc
+- #8ec5fc
+- #1a1541
+- #7875fd
+- #CDCCFF
+- #aeadfc
+
+Typography:
+We decided to use custom fonts (Vanilla Ravioli and The Texterius) found online on https://velvetyne.fr/fonts/amdal/download/ and https://www.dafont.com/ (included in the fonts folder)
+
+Iconography:
+We have opted for a flat design for all our icons for a modern and minimalistic feel. 
+
+Links:
+Links have an underlined animation that appears when hovering on them.
+
+Buttons:
+Button also have a flat design similar to the icons and the rest of the website
+
