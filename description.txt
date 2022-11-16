@@ -1,0 +1,11 @@
+Starstruck:
+    description:
+    Startrusk is an online social networking service. It is a social app focused on connecting with people with similar music taste uing spotify data.
+    features:
+    -Listening party events
+    -Merch center
+    -Infos on artists/ artist pages for users to keep up with tour dates, album releases etc
+    -You can customize your profile to display all the artists/genres/fav songs you like
+    -Comment on artists' discographies/songs/leave reactions
+    -live reactions to album releases 
+     -
