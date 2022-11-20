@@ -1,109 +1,187 @@
-*{
-    padding: 0;
+@font-face {
+    font-family: "The Texterius";
+    src: url(fonts/The\ Texterius\ Italic.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "Vanilla Ravioli";
+    src: url(fonts/Vanilla\ Ravioli.ttf) format("truetype");
+  }
+  * {
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'Alegreya', serif;
-}
-
-.section{
-    padding: 40px 15%;
-}
-
-.contact{
-    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-    height: 100%;
-    width: 100%;
+    padding: 0;
+  }
+  .header {
     min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    align-items: center;
-    grid-gap: 96px;
-    padding-left: 100px;
-}
-
-.contact-form h1{
-    font-size: 80px;
-    color: #1a1541;
-    margin-bottom: 20px;
-
-}
-
-
-.contact-form p{
-    font-weight: bold;
-    color: #1a1541;
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-size: 20px;
-    margin-bottom: 60.8px;
-}
-
-.contact-form form{
-    position: relative;
-}
-
-.contact-form form input,
-form textarea{
     width: 100%;
-    padding: 17px;
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  }
+  nav {
+    display: flex;
+    padding: 0.5% 2%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img {
+    width: 220px;
+    height: auto;
+  }
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px 20px;
+  }
+  .nav-links ul li a {
+    color: #1a1541;
+    text-decoration: none;
+    font-family: "Vanilla Ravioli";
+    font-size: 20px;
+  }
+  ul img {
+    width: 15px;
+    height: auto;
+  }
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #1a1541;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .nav-links ul li:hover::after {
+    width: 100%;
+  }
+  body {
+    font-family: "The Texterius", sans-serif;
+  
+  }
+  .faq-heading {
+    border-bottom: #1a1541;
+    padding: 20px 60px;
+  }
+  .faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hr-line {
+    width: 60%;
+    margin: auto;
+  }
+  /* Style the buttons that are used to open and close the faq-page body */
+  .faq-page {
+    /* background-color: #eee; */
+    color: #1a1541;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
     border: none;
     outline: none;
-    background: #191919 ;
-    color: #fff;
-    font-size: 17.6px;
-    margin-bottom: 11.2px;
-}
-
-.contact-form textarea{
-    resize: none;
-    height: 200px;
-}
-
-.contact-form form .btn{
-    display: inline-block;
-    background:  #1a1541;
-    font-size: 17.6px ;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: 2px  solid transparent;
-    border-radius: 10px;
-    width: 220px;
-    transition: ease 0.20s;
-    cursor: pointer;
-}
-
-
-.contact-form form .btn:hover{
-    border: 2px solid  #1a1541;
-    background: transparent;
-    transform: scale(1.1);
-}
-
-@media (max-width: 1570px){
-    section{
-        padding: 80px 3%;
-        transition: .2s;
+    transition: 0.4s;
+    margin: auto;
+  }
+  .faq-body {
+    margin: auto;
+    /* text-align: center; */
+    width: 50%;
+    padding: auto;
+    font-family: "vanilla Ravioli";
+    color: mintcream;
+  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .faq-page:hover {
+    background-color: #cdccff;
+  }
+  /* Style the faq-page panel. Note: hidden by default */
+  .faq-body {
+    padding: 0 18px;
+    background-color: #cdccff;
+    display: none;
+    overflow: hidden;
+  }
+  .faq-page:after {
+    content: "\02795";
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #1a1541;
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+  }
+  
+  .typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #aeadfc; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.08em; /* Adjust as needed */
+    animation: typing 3.9s steps(40, end), blink-caret 0.9s step-end infinite;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
     }
-    .contact-form h1{
-        font-size: 60px;
+    to {
+      width: 100%;
     }
-    .contact-form p{
-        margin-bottom: 48px;
-
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
     }
-}
-
-@media (max-width: 1090px){
-    .contact{
-        grid-gap: 32px;
-        transition: 0.3s;
+    50% {
+      border-color: #aeadfc;
     }
-}
+  }
+  
+  .contact-form{
+    position: absolute;
+    left: 10px;
+  }
+  
+  .main-title{
+    text-align: center;
+    font-family: 'Vanilla Ravioli';
+    font-size: 40px;
+  }
+  
+  .subtitle{
+    text-align: center;
+    font-family: 'Calibri';
+  }
 
-@media (max-width: 1090px){
-    .contact{
-        grid-template-columns: 1fr;
-    
-}
-}
+  .subtitle-main{
+    text-align: center;
+    font-family: 'Calibri';
+    font-size: 20px;
+  }
+  
+  .contact-form h2{
+    text-align: center;
+  }
+  
+  .connact-form p{
+    text-align: center;
+    font-family: 'Calibri';
+  }
+
+  .core-contact{
+    position: relative;
+    top: 50px;
+  }

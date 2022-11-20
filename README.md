@@ -12,5 +12,13 @@ Mohamed Yatera - Github Username : MohamedYatera - https://github.com/MohamedYat
 Anna Corinne N'Guessan-Ble - Github Username : angue047 - https://github.com/angue047 - <br />
 
 - Description:
-  Allows people to connect with each other with the use of music
+  Startrusk is an online social networking service.
+  It is a social app focused on connecting with people with similar music taste uing spotify data.
+  The app offers a multitude of services such as:
+    - Artist pages containing tour and album infos, merch and events, accessible to users
+    - Customizable profiles for users to showcase your favorite artists, songs and communities
+    - Comment sections and forum spaces for users to interact with one another
+    - Live events (Listening parties, album releases and countdowns)
+    
+
 
